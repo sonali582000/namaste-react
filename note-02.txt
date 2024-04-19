@@ -1,0 +1,9 @@
+# npm is a Package Manager
+# npm init will generate package.json (it is configuration of npm)
+# webpack, parcel and vite is a bundler which is used for production and make a bundle(minimise, optimized code).
+# npm install -D parcel (-D is used for devDependency which is required during developement phase).
+# it will generate package.lock.json and node_modules
+# the difference between ^ and ~ is Minor update and Major update
+# the difference between package.lock.json and package.json is package.json may contain ^ or ~ package version but package.lock.json maintains the version of each installed dependencies, so that there will be conflict during production phase.
+# use .gitignore for /node_modules
+# In a project we have multiple other dependencies and package.json in node_modules.
