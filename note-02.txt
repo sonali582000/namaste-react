@@ -7,3 +7,27 @@
 # the difference between package.lock.json and package.json is package.json may contain ^ or ~ package version but package.lock.json maintains the version of each installed dependencies, so that there will be conflict during production phase.
 # use .gitignore for /node_modules
 # In a project we have multiple other dependencies and package.json in node_modules.
+
+# Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - support older Browser
+- Diagnostic
+- Error Handling
+
+
+# .parcel-cache will reduce the time for running the application by caching (does above points)
+# dist will create bundle for production ready application
+
+dist\index.html            527 B    6.06s
+dist\index.8d566482.css     84 B    288ms
+dist\index.c434ac2a.js 
